@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>聖心女子大学｜国際交流学科（提案）</title>
+  <meta name="description" content="聖心女子大学 国際交流学科 グローバル社会コース（提案）。カリキュラムや教員紹介、卒業研究、そして生徒の声をnote風に掲載します。" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <!-- 左上ロゴ：クリックで大学公式へ飛ぶ -->
+    <a class="logo-link" href="https://www.u-sacred-heart.ac.jp/" target="_blank" rel="noopener noreferrer">
+      <img src="images/logo-placeholder.png" alt="聖心女子大学" class="logo-img" />
+    </a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <ul>
+        <li><a href="#about">学科について</a></li>
+        <li><a href="#course">コース紹介</a></li>
+        <li><a href="#faculty">教員紹介</a></li>
+        <li><a href="#research">卒業研究</a></li>
+        <li><a href="#news">お知らせ</a></li>
+        <li><a href="#voices">生徒の声</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO（Identity風の大きなビジュアル + グラデ） -->
+<section class="hero">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+
+  <div class="hero-inner">
+    <h1 class="hero-title">国際交流学科（グローバル社会コース）</h1>
+    <p class="hero-sub">世界の「いま」を学び、未来をデザインする女性を育てます</p>
+  </div>
+</section>
+
+<main>
+  <!-- ABOUT（参考ページの構成をベース） -->
+  <section id="about" class="section container">
+    <div class="section-grid">
+      <div class="col">
+        <h2 class="section-title">学科について</h2>
+        <p>本学科は、国際社会に貢献する視点を育成することを目的とし、国際関係、開発、文化交流、言語教育など幅広い分野を学びます。英語や外国語の実践的な授業、留学プログラム、フィールドワークを通じて“現場力”を養います。</p>
+      </div>
+
+      <div class="col">
+        <h3>特徴</h3>
+        <ul class="feature-list">
+          <li>実践的な英語教育とゼミ活動</li>
+          <li>少人数による指導とフィールドワーク</li>
+          <li>多様な留学制度と国際インターン</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSE -->
+  <section id="course" class="section alt container">
+    <h2 class="section-title">コース紹介</h2>
+    <p>グローバルな視点を育てるための必修科目・選択科目を用意。1年次から段階的に学び、4年次の卒業研究へとつなげます。</p>
+
+    <div class="cards">
+      <article class="card">
+        <h3>基礎科目</h3>
+        <p>国際関係の基礎、経済、統計リテラシーなど。</p>
+      </article>
+      <article class="card">
+        <h3>実践科目</h3>
+        <p>プレゼン・ディスカッション・フィールドワークを重視。</p>
+      </article>
+      <article class="card">
+        <h3>語学・留学</h3>
+        <p>英語力強化＋第二外国語（フランス語等）。留学支援あり。</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- FACULTY -->
+  <section id="faculty" class="section container">
+    <h2 class="section-title">教員紹介</h2>
+
+    <div class="teacher-list">
+      <div class="teacher">
+        <img src="images/teacher-1.jpg" alt="山田 花子 教授" />
+        <div>
+          <h4>山田 花子 教授</h4>
+          <p>専門：国際政治・外交史</p>
+        </div>
+      </div>
+
+      <div class="teacher">
+        <img src="images/teacher-2.jpg" alt="佐藤 太一 准教授" />
+        <div>
+          <h4>佐藤 太一 准教授</h4>
+          <p>専門：国際開発・アジア地域研究</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section id="research" class="section alt container">
+    <h2 class="section-title">卒業研究</h2>
+    <p>卒業研究では、学生がテーマを定め、調査・執筆・発表を行います。過去のテーマ例：国際移民と政策、比較教育、アフリカの開発と市民社会など。</p>
+  </section>
+
+  <!-- NEWS -->
+  <section id="news" class="section container">
+    <h2 class="section-title">お知らせ</h2>
+
+    <ul class="news-list">
+      <li><time>2025-11-01</time>　ゼミ発表会のお知らせ</li>
+      <li><time>2025-10-15</time>　留学説明会を開催しました</li>
+    </ul>
+  </section>
+
+  <!-- VOICES（ここが重要：note風の個別ページ風で複数作れる） -->
+  <section id="voices" class="section alt container">
+    <h2 class="section-title">生徒の声</h2>
+    <p class="muted">学生の体験談をnote風に掲載します。下の個別記事をクリックするとその記事にスクロールします。</p>
+
+    <!-- サマリーリスト（カード風） -->
+    <div class="voice-summary">
+      <!-- それぞれのカードが article#voice-xxx へリンク -->
+      <article class="voice-summary-card" data-target="#voice-kawasaki">
+        <img src="images/voices_kawasaki-thumb.jpg" alt="川崎裕美 サムネ" />
+        <div class="meta">
+          <h3>川崎 裕美（4年）</h3>
+          <p class="small">国際交流学科・グローバル社会コース</p>
+        </div>
+      </article>
+
+      <!-- 追加用のカード：運用で増やす -->
+      <!-- <article class="voice-summary-card" data-target="#voice-xxx"> … </article> -->
+    </div>
+
+    <!-- 個別記事群（noteスタイル） -->
+    <div class="voice-articles">
+      <!-- 1件目（IDは anchor 用） -->
+      <article id="voice-kawasaki" class="voice-article note-article">
+        <div class="note-hero">
+          <img src="images/voices_kawasaki.jpg" alt="川崎裕美" />
+        </div>
+
+        <div class="note-body">
+          <h1 class="note-title">生徒の声：川崎 裕美（4年）</h1>
+          <div class="note-meta">
+            <p><strong>所属：</strong>国際交流学科・グローバル社会コース</p>
+            <p><strong>学籍番号：</strong>10220173</p>
+          </div>
+
+          <hr />
+
+          <h2>グローバル社会コースを選んだ理由</h2>
+          <p>大学入学時から「国際的な仕事をしたい」という気持ちが強く、特に国際政治や国際経済、外国語の授業など世界を広く学ぶことができるのがグローバル社会コースだと思い選択しました。</p>
+
+          <h2>このコースで成長したと感じること</h2>
+          <p>英語で話す自信がついたことと、国際理解が深まったことです。英語のプレゼンや発言型授業が多く、回数をこなすことで自然と話すことが楽しくなりました。</p>
+
+          <h2>授業外の活動</h2>
+          <p>学内での生理用品無償設置プロジェクトや女性のエンパワメントを目的にした学生団体を立ち上げ、実務運営を経験しました。</p>
+
+          <h2>留学</h2>
+          <p>3年次にパリの大学へ半年間留学し、現地での活動を通じて実務経験も得ました。</p>
+
+        </div>
+      </article>
+
+      <!-- 追加記事は同じテンプレで増やす -->
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 聖心女子大学 国際交流学科（提案）</p>
+    </div>
+  </footer>
+</main>
+
+<!-- 初期アニメーション / インタラクション -->
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+  // HERO のフェード＆スライド
+  gsap.from(".hero-inner .hero-title", {opacity:0, y:30, duration:1, ease:"power2.out"});
+  gsap.from(".hero-inner .hero-sub", {opacity:0, y:20, duration:1, delay:0.15, ease:"power2.out"});
+
+  // セクション毎にフェードアップ
+  gsap.utils.toArray(".section").forEach((sec) => {
+    gsap.from(sec, {
+      scrollTrigger: { trigger: sec, start: "top 80%" },
+      opacity: 0,
+      y: 30,
+      duration: 0.9,
+      ease: "power2.out"
+    });
+  });
+
+  // voice-summary-card をクリックで個別記事へスムーススクロール
+  document.querySelectorAll('.voice-summary-card').forEach(card => {
+    card.addEventListener('click', () => {
+      const tgt = document.querySelector(card.dataset.target);
+      if (tgt) {
+        gsap.to(window, {duration: 0.8, scrollTo: {y: tgt, offsetY: 80}});
+      }
+    });
+  });
+
+  // もし gsap.scrollTo を使うならプラグインを追加で読み込んでください
+</script>
+
+<!-- optional: gsap ScrollTo plugin (if you prefer anchor smooth scroll via gsap) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+
+</body>
+</html>
